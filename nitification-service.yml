@@ -1,0 +1,8 @@
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+eureka:
+  client:
+    server:
+      defualtZone: http://192.168.1.31:8761/eureka/
+
+luckyWord: 你,我,他,她,它
