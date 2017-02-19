@@ -5,5 +5,5 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     server:
-      defualtZone: http://localhost:${server.port}/eureka/
+      defaultZone: http://localhost:${server.port}/eureka/
       waitTimeInMsWhenSyncEmpty: 0
